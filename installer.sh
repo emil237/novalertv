@@ -54,7 +54,7 @@ $OPKG >/dev/null 2>&1
 ###################
 #  Install Plugin #
 
-echo "Insallling Ansite plugin Please Wait ......"
+echo "Insalling NovalerTv plugin Please Wait ......"
 if [ "$PYTHON_VERSION" -eq 3 ]; then
     wget $MY_URL/${PACKAGE}_"${VERSION}"_py3_all.ipk -qP $TMPDIR
     $OPKGINSTAL $TMPDIR/${PACKAGE}_"${VERSION}"_py3_all.ipk
